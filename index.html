@@ -10,6 +10,8 @@
 
   <body>
     <div>
+
+        <!-- text formatting -->
       <strong>Strong Text</strong> <br />
       <em>Italic Text</em> <br />
       <u>Underlined text</u>
@@ -18,6 +20,7 @@
       <del>This is a strikethrough</del>
       <hr />
 
+      <!-- Unordered list -->
       <p>This is my unordered list</p>
 
       <ul>
@@ -27,6 +30,7 @@
 
       <hr />
 
+      <!-- Ordered list -->
       <p>This is my ordered list</p>
 
       <ol type="1">
@@ -36,8 +40,10 @@
 
       <hr />
 
+      
       <p>Our computers are the <strong>BEST</strong> on the market</p>
 
+      <!-- Input images -->
       <img src="techo.jpeg" width="300" height="300" />
 
       <!-- hotlinking image directly with the image address -->
@@ -48,8 +54,38 @@
 
       <hr />
 
-<h3>Let's use some forms</h3>
+      <!-- forms -->
+      <h3>Let's use some forms</h3>
 
+      <form>
+        <p>Username: <input type="text" value="enter username"/></p>
+        <p>Save Username <input type="checkbox" checked/></p> <!--checked = have it checked by default-->
+        <br />
+
+        <!-- Choose buttons -->
+        <p>How old are you?</p>
+        <p><em>Under 21 </em><input type="radio" name="age" /></p>
+        <p><em>Over 21</em> <input type="radio" name="age" /></p>
+
+        <br>
+
+        <!-- Drop down menu -->
+        <p>Favorite Food:
+
+            <select>
+                <option>Pizza</option>
+                <option selected>Ice Cream</option> <!--first option that will be selected from DD menu-->
+                <option>Sandwiches</option>
+            </select>
+
+        </p>
+
+        <!-- submit buttons -->
+
+        <input type="submit" value="Click Me">
+
+
+      </form>
     </div>
   </body>
 </html>
