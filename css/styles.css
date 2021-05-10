@@ -1,0 +1,37 @@
+/* #toplet {
+  float: right;
+}
+
+.pno {
+  color: blueviolet;
+  font-size: 200%;
+
+  background-color: hsl(131, 100%, 60%);
+  float: right;
+} */
+
+
+.firstSec{
+  background-color: aqua;
+  width: 500px;
+  position: fixed;
+  left: 800px;
+  top: 100px;
+  z-index: 2;
+}
+
+.myTable{
+
+  text-align: center;
+  border: 3px solid black;
+}
+
+.secondSec{
+  background-color: pink;
+  width: 400px;
+  height: 900px;
+  position: relative;
+  z-index: 1;
+
+  
+}

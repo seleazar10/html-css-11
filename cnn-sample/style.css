@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* background-color: red; */
+}
+
+/* header ******************************** */
+
+.top-nav{
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu li{
+    float: left;
+    padding: 20px;
+}
+
+.menu li:nth-last-child(-n+2) {
+    float: right;
+}
+
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* body ************************************/
+.container-one{
+    height: 1200px;
+    background-color: red;
+}
