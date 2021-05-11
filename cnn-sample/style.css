@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.clearfix{
+    overflow: auto;
+}
+
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
 
 body{
     /* background-color: red; */
@@ -17,6 +26,18 @@ body{
     width: 100%;
     position: fixed;
     top: 0;
+    margin-bottom: 120px;
+}
+
+#left-nav{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: white; */
+}
+
+.red{
+    color: red;
 }
 
 .menu{
@@ -26,11 +47,26 @@ body{
 
 .menu li{
     float: left;
-    padding: 20px;
+    padding: 5px
+
 }
 
-.menu li:nth-last-child(-n+2) {
+.top-nav img{
+    width: 35px;
+    /* height: 100%; */
+}
+
+
+
+.menu li:nth-last-child(-n+10){
+    margin: 10px 5px 5px 0px;
+    padding: 5px
+}
+
+.menu li:nth-last-child(-n+3) {
     float: right;
+    padding: 5px;
+    margin: 0px;
 }
 
 
@@ -40,9 +76,122 @@ body{
 
 }
 
+.menu li a:hover{
+    border-bottom: red 2px solid;
+}
+
+#edition-menu{
+    color: white;
+    background-color:black;
+    margin-top: 5px;
+    border: black
+}
+
 
 /* body ************************************/
+.strong{
+font-weight: bold;
+}
+
+.underlined{
+    border-bottom: darkgray 1px solid;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pad{
+    padding: 20px;
+}
+
+.marg{
+    margin: 5px  0px;
+}
+
+
+
+
 .container-one{
     height: 1200px;
-    background-color: red;
+    /* background-color: red; */
+    float: left;
+    width: 100%;
+    margin: 100px;
+    
+}
+.second-nav{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.second-nav-menu{
+    list-style-type: none;
+    margin-top: 100px;
+}
+
+.second-nav-menu li{
+    float: left;
+    margin: 5px;
+    padding: 0px 5px 5px 5px;
+    border-right: gray 1px solid;
+    
+}
+
+.sec-uno{
+    width: 40%;
+}
+
+.sec-two,
+.sec-three{
+    width: 25%;
+}
+
+.sec-uno,
+.sec-two,
+.sec-three{
+    /* width: 30%; */
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+
+    /* background-color: chartreuse; */
+}
+
+.big-pic{
+    width: 100%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sm-pic{
+    width: 100%;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container-two{
+    max-width: 100%;
+    margin: 100px;
+}
+
+#comBtn{
+    border-radius: 20px;
+    padding: 15px;
+    background-color: cyan;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    ;
+}
+
+.comInput{
+    width: 300px;
+    height: 120px;
+    
 }
