@@ -117,12 +117,13 @@ font-weight: bold;
     /* background-color: red; */
     float: left;
     width: 100%;
-    margin: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     
 }
 .second-nav{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .second-nav-menu{
     list-style-type: none;
@@ -132,7 +133,7 @@ font-weight: bold;
 .second-nav-menu li{
     float: left;
     margin: 5px;
-    padding: 0px 5px 5px 5px;
+    padding-right: 5px;
     border-right: gray 1px solid;
     
 }
@@ -176,17 +177,18 @@ font-weight: bold;
 
 
 .container-two{
-    max-width: 100%;
-    margin: 100px;
+    width: 1000px;
+    /* margin: 100px; */
+    /* position: relative; */
 }
 
 #comBtn{
     border-radius: 20px;
     padding: 15px;
     background-color: cyan;
-    display: block;
+    /* display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto */
     ;
 }
 
@@ -194,4 +196,13 @@ font-weight: bold;
     width: 300px;
     height: 120px;
     
+}
+
+.btnToChange{
+    margin-top: 45px;
+}
+
+#changeBtn2{
+    display: block;
+    margin: 10px 0px;
 }
