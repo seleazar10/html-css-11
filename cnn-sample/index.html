@@ -39,36 +39,33 @@
     <div class="clearfix"></div>
 
     <div class="second-nav">
-
       <ul class="second-nav-menu">
-        <li class=""><span class="red">PODCAST:</span> Chasing Life with Sanjay Grupta</li>
+        <li class="">
+          <span class="red">PODCAST:</span> Chasing Life with Sanjay Grupta
+        </li>
         <li class=""><span class="red">TRENDING:</span> Covid-19</li>
         <li>Dogecoin</li>
         <li>Gas Demand</li>
-
       </ul>
-
     </div>
 
     <div class="container-one">
-
-     
-
       <div class="sec-uno">
         <h1 class="text-center">
           Where are we now and how to chase life ahead
         </h1>
         <img src="outdoor.jpeg" alt="bird-in-mouth" class="big-pic" />
-        <p class="strong">
+        <p class="strong marg">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta,
           possimus adipisci odit repellat incidunt dicta, corrupti corporis ipsa
           velit officiis mollitia nisi, repellendus est! Aliquid ad repellendus
           in animi dolorum!
         </p>
         <!-- <hr /> -->
-        <p>Headline to one thing</p>
+        <p class="marg">Headline to one thing</p>
         <hr />
-        <p>HEadline to something else</p>
+        <p class="marg">HEadline to something else</p>
+        <hr />
       </div>
 
       <div class="sec-three">
@@ -80,7 +77,7 @@
         <p class="marg">
           <span class="strong">Analysis:</span>
           <span class="underlined">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </span>
         </p>
         <p class="marg">
@@ -104,12 +101,13 @@
 
       <div class="sec-two">
         <h3>
+          <span class="red">LIVE UPDATES</span>
           Caitlyn Jenner: I didn't vote for Trump and skipped 2020 election to
           play golf
         </h3>
 
         <hr />
-        <p class="marg"> First Link</p>
+        <p id="firstLink" class="marg">First Link</p>
         <hr />
         <p class="marg">Second Link</p>
         <hr />
@@ -137,15 +135,33 @@
       <div class="clearfix"></div>
 
       <div class="container-two">
-        <h2>Comment Box</h2>
-  
+
         <form>
           <p><input type="text" class="comInput" /></p>
           <input type="submit" value="Send Comment" id="comBtn" />
         </form>
       </div>
+
+      <div class="btnToChange">
+        <!-- first btn to change -->
+        <h2 id="txtChn">Text to Change</h2>
+        <button id="changeBtn0">Change Text</button>
+
+        <!-- second and third btn to change -->
+        <h2 id="dis">The first headline is...<span id="appdTxt"></span></h2>
+        <button id="changeBtn1">Append Text</button>
+        <button id="changeBtn2">Create Text</button>
+
+        <!-- fourth btn to chnage -->
+        <h2 id="newStyling">This is the second headlines</h2>
+        <button id="changeBtn3">Style Text</button>
+      </div>
     </div>
-    <!-- <hr /> -->
-    
+
+    <hr />
+
+   
+
+    <script src="script.js"></script>
   </body>
 </html>
