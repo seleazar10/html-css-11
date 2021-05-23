@@ -1,0 +1,24 @@
+.circle{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    /* background-color: red; */
+    border-radius: 50%;
+    float: left;
+}
+
+body{
+    /* background-color: yellow; */
+}
+
+#firstBox{
+    background-color: red;
+}
+
+#scndBox{
+    background-color: yellow;
+}
+
+#trdBox{
+    background-color: green;
+}
