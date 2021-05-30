@@ -1,12 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>ESPN: Serving Sports Fan</title>
-        <link rel="stylesheet" type="text/css" href="espn-style.css">
-    </head>
-    <body>
-        <nav>
-            <h1>my nav</h1>
-        </nav>
-    </body>
+  <head>
+    <title>ESPN: Serving Sports Fan</title>
+    <link rel="stylesheet" type="text/css" href="espn-style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul id="nav-bar-top">
+        <li id="espn-logo-div">
+          <img src="./espn-logo.jpeg" alt="espn-logo" id="espn-logo" />
+        </li>
+        <li id="nfl">NFL</li>
+        <li>NBA</li>
+        <li>MLB</li>
+        <li>NHL</li>
+        <li>Soccer</li>
+        <li>MMA</li>
+        <li>...</li>
+        <li>Listen</li>
+        <li>Watch</li>
+        <li>ESPN+</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="container-one cards">
+        <div id="first-section" class="sm-section cards">
+          <img src="./plus-logo.jpeg" alt="plug" class="espn-plus" />
+          <button class="btn sub-btn">Subscribe now</button>
+
+          <div class="list-section">
+            <ul class="first-list-section">
+              <li>
+                <span>
+                  <img src="nfl.jpeg" alt="nfl" class="first-menu-img" />
+                </span>
+                Kiper's NFL Draft
+              </li>
+              <!-- <hr> -->
+              <li>
+                <span>
+                  <img src="nfl.jpeg" alt="nfl" class="first-menu-img" />
+                </span>
+                Peytoon's place: Season 2
+              </li>
+              <li>
+                <span>
+                  <img src="nfl.jpeg" alt="nfl" class="first-menu-img" />
+                </span>
+                Detail: Peyton, Montana, and Redi
+              </li>
+              <li>
+                <span>
+                  <img src="nfl.jpeg" alt="nfl" class="first-menu-img" />
+                </span>
+                Suberblow Archives
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- try new -->
+        <div class="second-set-menu cards">
+          <ul class="first-list-section">
+            <li>boom</li>
+            <li>bap</li>
+          </ul>
+        </div>
+
+        <!-- yup -->
+      </div>
+
+      <div id="second-section" class="cards">
+        <img src="sixers.jpeg" alt="outddor" id="mid-pic" />
+
+        <div class="underpic">
+          <h3>
+            Watch Live: Featured awesome people, including Mariah and Stama, at
+            the Sixers game
+          </h3>
+
+          <div id="para-container" class="cards pic-para">
+            <p class="pic-para-one">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestias vero vitae iste nemo, accusamus praesentium delectus
+              veritatis quam odio ipsam eaque itaque, pariatur facere ratione
+              aut quis. Nam, eveniet vel.
+            </p>
+            <div class="author-sec">
+              <img src="./outdoor.jpeg" alt="outdoor" class="author-pic" />
+              <p>Jon Doe, ESPN.com</p>
+              <p>1 hr ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="third-section" class="sm-section-three cards">
+        <h4 class="third-headlines"><strong>Top Headlines</strong></h4>
+        <ul class="third-section-menu">
+          <li>NBA eyes midseason tournament</li>
+          <li>Suns Gmgeeked to face ex-teammates Lebron</li>
+          <li>NBA eyes midseason tournament</li>
+          <li>Suns Gmgeeked to face ex-teammates Lebron</li>
+          <li>NBA eyes midseason tournament</li>
+          <li>Suns Gmgeeked to face ex-teammates Lebron</li>
+        </ul>
+
+        <hr />
+        <div>
+          <form class="gameTime">
+            <h1>Quick Game</h1>
+            <label for="gamename">how may fingers am i holdinig up?</label>
+
+            <input type="text" id="fingersNumb" />
+            <input type="submit" id="submBtnOne"></input>
+          </form>
+        </div>
+      </div>
+
+      <div id="updateHeadlines">
+        <button id="updateBtn">
+          Update
+        </button>
+        <p id="updatedLines">pp</p>
+
+      </div>
+    </div>
+
+
+    <script src="espn.js"></script>
+  </body>
 </html>
