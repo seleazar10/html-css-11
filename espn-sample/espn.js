@@ -41,4 +41,18 @@ document.getElementById('updateBtn').addEventListener('click', function(event){
         // console.log(headlinesString)
     }
     document.getElementById('updatedLines').innerHTML = headlinesString 
+
+
+    // find average
+
+    function average(a,b,c){
+      var avgNumb =   (a * b * c) / 3
+      console.log(avgNumb)
+      return avgNumb
+    }
+
+   var testNumb = average(2, 8, 10)
+   console.log(testNumb)
 })
+
+
